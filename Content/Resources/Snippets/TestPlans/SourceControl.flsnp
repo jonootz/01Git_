@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2458.333" MadCap:lastWidth="1033">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="848" MadCap:lastWidth="624">
     <head>
         <link href="../../TableStyles/Columns.css" rel="stylesheet" MadCap:stylesheetType="table" href-original="../../TableStyles/Columns.css" />
     </head>
     <body>
         <p class="Open">Starting with Flare 9, there is a "Web Print Mobile" template project that is a good test project with files that are interlinked to other files.</p>
         <p>&#160;</p>
-        <table class="TableStyle-Columns" style="mc-table-style: url('../../../../../../Resources/Snippets/TestPlans/Resources/TableStyles/Columns.css'); caption-side: top; mc-table-style-original: url('../../TableStyles/Columns.css');" cellspacing="0">
+        <table class="TableStyle-Columns" style="caption-side: top;mc-table-style-original: url('../../TableStyles/Columns.css');mc-table-style: url('../../TableStyles/Columns.css');" cellspacing="0">
             <col style="width: 323pt;" class="TableStyle-Columns-Column-Column2" />
             <col style="width: 83pt;" class="TableStyle-Columns-Column-Column1" />
             <col style="width: 112pt;" class="TableStyle-Columns-Column-Column2" />
             <col style="width: 83pt;" class="TableStyle-Columns-Column-Column1" />
             <col style="width: 83pt;" class="TableStyle-Columns-Column-Column2" />
+            <col style="width: 83pt;" class="TableStyle-Columns-Column-Column1" />
+            <col style="width: 38pt;" class="TableStyle-Columns-Column-Column2" />
             <thead>
                 <tr class="TableStyle-Columns-Head-Header1">
                     <th class="TableStyle-Columns-HeadE-Column2-Header1">&#160;</th>
@@ -27,15 +29,23 @@
                         <p>Status in</p>
                         <p> Repository</p>
                     </th>
-                    <th class="TableStyle-Columns-HeadD-Column2-Header1">
+                    <th class="TableStyle-Columns-HeadE-Column2-Header1">
                         <p>Status in </p>
                         <p>File List Window</p>
+                    </th>
+                    <th class="TableStyle-Columns-HeadE-Column1-Header1">
+                        <p>Status in Provider Explorer</p>
+                    </th>
+                    <th class="TableStyle-Columns-HeadD-Column2-Header1">
+                        <p>Overall</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="TableStyle-Columns-Body-subheading" MadCap:pattern="6">
-                    <td class="TableStyle-Columns-BodyD-Column2-subheading" colspan="5">Basic Functions</td>
+                <tr class="TableStyle-Columns-Body-Body1">
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1" colspan="5">Basic Functions</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
@@ -44,12 +54,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyD-Column2-Body1">y</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Bind existing Project to VC</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -62,10 +76,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">After Unbinding Project from VC - make some changes to files/folders in local project and make sure the copy in the repository is not affected</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -78,12 +96,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Add Single File</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -96,12 +118,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Rename a Single File with Links</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -114,12 +140,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Moving a Single File with Links</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -132,12 +162,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Undo Checkout of a Single File</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -148,6 +182,8 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.TFS,SourceControl.SVN">
@@ -155,10 +191,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.TFS,SourceControl.SVN">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Lock a single file and check it in. On another computer lock the same file and check it in</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -171,6 +211,8 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
@@ -178,10 +220,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Add new folder and create a new topic in that folder and check it in</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -194,12 +240,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Check In Single File</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -212,12 +262,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Get Latest Single File</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -230,12 +284,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Show Differences of a Single File</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -246,17 +304,23 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
-                <tr class="TableStyle-Columns-Body-subheading" MadCap:pattern="6">
-                    <td class="TableStyle-Columns-BodyD-Column2-subheading" colspan="5">
+                <tr class="TableStyle-Columns-Body-Body1">
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1" colspan="5">
                         <p class="p_5">'Multiple' Functions</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Add Multiple Files</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -269,12 +333,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 16pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Check Out Multiple Files when one or more are already Checked out</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -285,10 +353,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.TFS,SourceControl.SVN">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Check out and lock multiple files when one or more are already locked</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -301,12 +373,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Get Latest Multiple Files</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -319,12 +395,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Rename Multiple Files</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -337,12 +417,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Move Multiple Files to a Folder above it</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -355,10 +439,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Move a folder that has all checked-in files that link to other files</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -369,10 +457,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Move a folder that has a mix of checked-in, checked-out, and pending-add files</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -383,10 +475,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Rename a folder  that has all checked-out files that link to other files</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -397,13 +493,19 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
-                <tr class="TableStyle-Columns-Body-subheading" MadCap:pattern="6">
-                    <td class="TableStyle-Columns-BodyD-Column2-subheading" colspan="5">Deleting</td>
+                <tr class="TableStyle-Columns-Body-Body1">
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1" colspan="5">Deleting</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Delete a checked-in file and check-in the change</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -416,10 +518,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Delete a pending-add file</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -430,10 +536,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Delete a folder with all checked-out files</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -444,6 +554,8 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
@@ -451,13 +563,19 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
-                <tr class="TableStyle-Columns-Body-subheading" MadCap:pattern="6" MadCap:conditions="SourceControl.multi-user,SourceControl.DetailedTesting">
-                    <td class="TableStyle-Columns-BodyD-Column2-subheading" colspan="5">Merging - Two User/Computer Test Cases</td>
+                <tr class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.multi-user,SourceControl.DetailedTesting">
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1" colspan="5">Merging - Two User/Computer Test Cases</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.multi-user,SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Both users check-out the same file and make non-conflicting changes. Both users check in changes. Auto resolve these changes and make sure both copies are updated correctly.</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -465,6 +583,8 @@
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.multi-user,SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Both users check-out the same file and make conflicting changes. Verify in the merge tool that the correct server version and local version is shown. Verify that the changes you make are applied to both copies.</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -477,10 +597,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.multi-user,SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Both users check-out the same file and make conflicting changes. Have one user choose to discard external changes. Verify the server copy is updated correctly.</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -491,10 +615,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.multi-user,SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Both users check-out the same file. One user renames the file , then the second user checks in the file before doing a Get Latest.</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -505,15 +633,21 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
-                <tr class="TableStyle-Columns-Body-subheading" MadCap:pattern="6">
-                    <td class="TableStyle-Columns-BodyD-Column2-subheading" colspan="5">Misc</td>
+                <tr class="TableStyle-Columns-Body-Body1">
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1" colspan="5">Misc</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.multi-user">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Sending an Instant Message</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -526,12 +660,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.TFS,SourceControl.VSS">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Request Check in of a Single File</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -544,12 +682,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.VSS,SourceControl.TFS">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Request Check In&#160; via Email</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -562,15 +704,21 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
-                <tr style="height: 15pt;" class="TableStyle-Columns-Body-subheading" MadCap:pattern="6" MadCap:conditions="SourceControl.DetailedTesting">
-                    <td class="TableStyle-Columns-BodyD-Column2-subheading" colspan="5">
+                <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1" colspan="5">
                         <p class="p_5">Advanced Functions</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Generate an output with 'Get Latest' checked and an import file with get latest checked</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -583,12 +731,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Get latest when generating option in targets</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -601,12 +753,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Bind a Project that has the same name as an Existing project in VC</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -619,6 +775,8 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
@@ -628,10 +786,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Edit a topic and save (don't check it in). Add a new topic, right click and add it. Make sure the edited topic is not checked in also.</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -644,10 +806,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Import a project into Analyzer that is bound to source control </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -660,10 +826,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Move a pending-add folder with a file and then delete it after it is moved</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -674,10 +844,14 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">Rename a pending-add file and then delete it</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -688,6 +862,8 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1" MadCap:conditions="SourceControl.DetailedTesting">
@@ -695,17 +871,23 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
-                <tr style="height: 15pt;" class="TableStyle-Columns-Body-subheading" MadCap:pattern="6">
-                    <td class="TableStyle-Columns-BodyD-Column2-subheading" colspan="5">
+                <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1" colspan="5">
                         <p class="p_5">Offline Testing</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">
                         <p class="p_3">Disconnect YOUR PC. Launch Flare and open a Bound Project.</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
@@ -718,6 +900,8 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
@@ -727,12 +911,16 @@
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column2-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyE-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyD-Column2-Body1">&#160;</td>
                 </tr>
                 <tr style="height: 15pt;" class="TableStyle-Columns-Body-Body1">
                     <td class="TableStyle-Columns-BodyB-Column2-Body1">
                         <p class="p_3">Disconnect SERVER. Launch Flare and open a Bound Project</p>
                     </td>
+                    <td class="TableStyle-Columns-BodyB-Column1-Body1">&#160;</td>
+                    <td class="TableStyle-Columns-BodyB-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyB-Column1-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyB-Column2-Body1">&#160;</td>
                     <td class="TableStyle-Columns-BodyB-Column1-Body1">&#160;</td>
